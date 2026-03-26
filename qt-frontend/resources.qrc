@@ -1,0 +1,15 @@
+<!--
+  Qt Resource File (.qrc)
+
+  Este arquivo lista todos os recursos que serão embutidos no executável.
+  Em vez de carregar o main.qml do disco em runtime, ele fica dentro do
+  binário compilado. Isso facilita a distribuição (um único arquivo).
+
+  No C++, acessamos via: QUrl("qrc:/main.qml")
+  O "qrc:/" é o prefixo que indica recurso embutido.
+-->
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,25 @@
+# Build
+build/
+cmake-build-*/
+
+# IDE
+.vscode/
+.idea/
+*.user
+*.swp
+*~
+
+# Binários
+*.o
+*.a
+*.so
+*.exe
+simian_api
+simian_frontend
+simian_tests
+
+# OS
+.DS_Store
+Thumbs.db
+.claude/
+run_frontend.sh
