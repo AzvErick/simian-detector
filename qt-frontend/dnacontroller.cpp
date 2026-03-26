@@ -9,7 +9,7 @@
 DnaController::DnaController(QObject* parent)
     : QObject(parent)
     , networkManager_(new QNetworkAccessManager(this))
-    , apiUrl_("http://localhost:8080")
+    , apiUrl_("http://34.69.179.211:8080")
     , loading_(false)
 {
 }
